@@ -1,6 +1,6 @@
-# For those who have challenge in navigating the Android project folder:
+# For those who have challenge in navigating through the Android project folder:
 --------------------------------------------------------------------
-## Open inside the *`<QuestionNo>`* you want to view the codes or Strings:  
+## Open inside the *`<QuestionNo>`* you want to view the Codes, XML files for Interface or Strings:  
 
 
 --------------------
