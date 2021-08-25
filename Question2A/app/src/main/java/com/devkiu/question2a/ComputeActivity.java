@@ -19,8 +19,8 @@ public class ComputeActivity extends AppCompatActivity {
         valueOne = (EditText) findViewById(R.id.valueOne);
         valueTwo = (EditText) findViewById(R.id.valueTwo);
         //get values
-        float x = Integer.parseInt(valueOne.getText().toString());
-        float y = Integer.parseInt(valueTwo.getText().toString());
+        float x = Float.parseFloat(valueOne.getText().toString());
+        float y = Float.parseFloat(valueTwo.getText().toString());
         //compute total
         float total = x + y;
         //Return to different Activity

@@ -11,7 +11,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:inputType="number"
-        android:hint="Enter Value 1"/>
+        android:hint="@string/hintValueOne"/>
     <EditText
         android:id="@+id/valueTwo"
         android:layout_width="match_parent"
@@ -20,13 +20,13 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:inputType="number"
-        android:hint="Enter Value 2"
+        android:hint="@string/hintValueTwo"
         />
     <Button
         android:id="@+id/btnCalculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate"
+        android:text="@string/computeActivity"
         android:onClick="computeTotal"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"

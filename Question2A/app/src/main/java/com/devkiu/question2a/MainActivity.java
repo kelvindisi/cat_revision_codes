@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     TextView output;
@@ -14,11 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        output = (TextView) findViewById(R.id.totalOutput);
 
         if (getIntent().getExtras() != null){
-            float total = getIntent().getExtras().getFloat("total");
-            output.setText(String.valueOf(total));
+            Float total = getIntent().getExtras().getFloat("total");
+            Toast.makeText(this, String.valueOf(total), Toast.LENGTH_SHORT).show();
         }
     }
     public void showComputeActivity(View view) {

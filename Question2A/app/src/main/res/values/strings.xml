@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Question2A</string>
+    <string name="app_name">Question 2a</string>
+    <string name="hintValueOne">Enter Value 1</string>
+    <string name="hintValueTwo">Enter value 2</string>
+    <string name="computeActivity">Compute Numbers</string>
 </resources>
