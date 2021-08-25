@@ -1,9 +1,13 @@
-# For those who have challenge on checking the code
+# For those who have challenge in navigating the Android project folder:
+--------------------------------------------------------------------
+#Open inside the <QuestionNo> you want to view the codes or Strings:  
 
-Inside the question you want to view the code for you will:
-For java codes open:
+
+## For java codes open:
 --------------------
-* Open /app/src/main/java/com/devkiu/<question>
-For String values open:
+* Open /app/src/main/java/com/devkiu/<question>  
+
+  
+## For String values open:
 -----------------------
 * app/src/main/res/values/strings.xml
